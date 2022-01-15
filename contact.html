@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correction TP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <i class="fas fa-user"></i><a href="form.html">Formulaire 1</a>
+            </li>
+            <li>
+                <i class="fab fa-angellist"></i><a href="contact.html">Formulaire 2</a>
+            </li>
+            <li>
+                <i class="fas fa-kiwi-bird"></i><a href="index.html">About</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form>
+            <div class="form_label">
+               <label for="femme"> Civilté</label>
+                <input type="radio" id="femme"  name="genre" value="F"> Femme
+                <input type="radio"  name="genre" value="H"> Homme
+            </div>
+            <div class="form_label">
+                <label for="afpa"> Nom </label>
+                <input type="text" id="afpa" required>
+            </div>
+            <div class="form_label">
+                <label for="prenom"> Prénom </label>
+                <input type="text" id="prenom">
+            </div>
+            <div class="form_label">
+                <label for="email"> Email </label>
+                <input type="email" id="email">
+            </div>
+            <div class="form_label">
+                <label for="pwd"> Mot de passe </label>
+                <input type="password" id="pwd">
+            </div>
+            <div class="form_label">
+                <label for="tel"> Tel </label>
+                <input type="tel" id="tel">
+            </div>
+            <div class="form_label">
+                <label for="cv"> CV </label>
+                <input type="file" id="cv">
+            </div>
+            <div class="form_label">
+                <label for="msg"> Message </label>
+                <textarea name="message" id="msg" cols="50" rows="5"></textarea>
+            </div>
+
+            <div class="form_label">
+                <label for="motiv"> Motivation </label>
+                <input type="range" id="motivation">
+            </div>
+            <div class="form_label">
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

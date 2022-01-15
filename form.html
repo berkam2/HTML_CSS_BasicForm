@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-beta2-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <nav>
+        <ul>
+            <li>
+                <i class="fas fa-user"></i><a href="form.html">Formulaire 1</a>
+            </li>
+            <li>
+                <i class="fab fa-angellist"></i><a href="contact.html">Formulaire 2</a>
+            </li>
+            <li>
+                <i class="fas fa-kiwi-bird"></i><a href="index.html">About</a>
+            </li>
+            
+        </ul>
+    </nav>
+    
+    <div class="container">
+      
+    <form action="">
+
+        <div class="select">
+            <label for="">Module à évaluer</label>
+            <select name="" id="" single>
+                <option value="id_html">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">Java</option>
+            </select>
+        </div>
+        <p>     <label >  Entrez votre nom</label>
+        <input type="text" placeholder="Margueritte du soleil" >
+        
+        </p>
+        <p>
+        <label >  Saisissez un mot de passe</label>
+        <input type="password" >
+        </p>
+
+        <p>
+        <label >  Votre email</label>
+        <input type="text" name="email" id="email" placeholder="examle@example.fr" >
+        </p>
+
+        <p>
+        <label >  Entrez un numéro de téléphone francais valide</label>
+        <input type="text" pattern="[0-9]{10}$" required maxlength="10">
+        </p>
+
+        <p>
+        <label >  Votre couleur préférée</label>
+        <input type="color" >
+        </p>
+
+        <p>
+        <label >  Niveau de satisfaction</label>
+        <input type="range" min="50" max="100">
+        </p>
+
+        <p>
+        <label >  Veuillez joindre une copie de votre CNI</label>
+        <input type="file" >
+        </p>
+
+        <p>
+        <label >  Cochez cette case pour accepter les CGV</label>
+        <input type="checkbox" >
+        </p>
+
+        <br>
+    
+        
+        <label for="">Message</label>
+
+        <textarea cols="30" rows="3"></textarea>
+        <br>
+
+        <br>
+        <div class="contre">
+        <input class="centre" type="reset" value="Annuler"> 
+        <input class="centre" type="submit" value="Se connecter">
+        </div>
+        
+    </form>
+
+    </div>
+   
+</body>
+</html>
